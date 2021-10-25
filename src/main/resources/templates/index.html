@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profile Page</title>
+
+<meta name="author" content="Codeconvey" />
+<link
+	href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+	rel="stylesheet">
+<link rel='stylesheet'
+	href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet'
+	href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css'>
+
+<!--Only for demo purpose - no need to add.-->
+<link rel='stylesheet' href='css/demo.css'>
+<link rel='stylesheet' href='css/style.css'>
+
+</head>
+<body>
+
+	<header class="ScriptHeader">
+		<div class="rt-container">
+			<div class="col-rt-12">
+				<div class="rt-heading">
+					<h1>My Profile Page</h1>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div class="rt-container">
+			<div class="col-rt-12">
+				<div class="Scriptcontent">
+
+					<!-- Student Profile -->
+					<div class="student-profile py-4">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-4">
+									<div style="height: 10px"></div>
+									<div class="card shadow-sm">
+										<div class="card-header bg-transparent text-center">
+											<img class="profile_img" src="myphoto.jpg" alt="student dp">
+											<h3>Yogesh Babaji Bangar</h3>
+										</div>
+										<div class="card-body">
+											<p class="mb-0">
+												<strong class="pr-1">Profile:</strong>DevOps Engineer
+											</p>
+											<p class="mb-0">
+												<strong class="pr-1">Company:</strong>Capgemini
+											</p>
+											<p class="mb-0">
+												<strong class="pr-1">Year of Experience:</strong>2
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-8">
+									<div style="height: 10px"></div>
+									<div class="card shadow-sm">
+										<div class="card-header bg-transparent border-0">
+											<h3 class="mb-0">
+												<i class="far fa-clone pr-1"></i>Skill Sets
+											</h3>
+										</div>
+										<div class="card-body pt-0">
+											<table class="table table-bordered">
+												<tr>
+													<th width="30%">Continuous Integration Tools</th>
+													<td width="2%">:</td>
+													<td>Jenkins, Gitlab CI (Gitlab Runner), Maven,
+														Sonarqube</td>
+												</tr>
+												<tr>
+													<th width="30%">Containerization Tools</th>
+													<td width="2%">:</td>
+													<td>Docker, Kubernetes</td>
+												</tr>
+												<tr>
+													<th width="30%">Scripting Languages</th>
+													<td width="2%">:</td>
+													<td>UNIX Shell Scripts, Python (Basics), Groovy
+														pipeline scripting</td>
+												</tr>
+												<tr>
+													<th width="30%">Deployments Tools</th>
+													<td width="2%">:</td>
+													<td>uDeploy</td>
+												</tr>
+												<tr>
+													<th width="30%">SCM Tools</th>
+													<td width="2%">:</td>
+													<td>GIT</td>
+												</tr>
+												<tr>
+													<th width="30%">Cloud Knowledge</th>
+													<td width="2%">:</td>
+													<td>AWS</td>
+												</tr>
+												<tr>
+													<th width="30%">Methodology</th>
+													<td width="2%">:</td>
+													<td>Agile</td>
+												</tr>
+											</table>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-lg-4">
+									<div style="height: 10px"></div>
+									<div class="card shadow-sm">
+										<div class="card-header bg-transparent border-0">
+											<h3 class="mb-0">
+												<i class="far fa-clone pr-1"></i>Download Resume PDF
+											</h3>
+										</div>
+										<div class="card-body pt-1">
+											<button type="button" class="btn btn-info"
+												th:onclick="|window.location.href='/download'|">Download
+												PDF</button>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-8">
+
+									<div style="height: 26px"></div>
+									<div class="card shadow-sm">
+										<div class="card-header bg-transparent border-0">
+											<h3 class="mb-0">
+												<i class="far fa-clone pr-1"></i>Project Experience
+											</h3>
+										</div>
+										<div class="card-body pt-0">
+											<p>It contains the enterprise claim solution projects of
+												Large American Insurance Company (LAIC). It’s continuous
+												process where we need to run the build on daily basis and
+												sometimes, we need to troubleshoot the errors by modifying
+												the server configuration, scripts and tool configuration.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- partial -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<!-- Analytics -->
+
+</body>
+</html>
